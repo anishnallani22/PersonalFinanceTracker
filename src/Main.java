@@ -1,5 +1,9 @@
+import ui.TerminalInterface;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+        TerminalInterface tInterface = new TerminalInterface();
+        tInterface.startProgram();
     }
 }
