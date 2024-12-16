@@ -18,7 +18,6 @@ public class TerminalInterface {
             selectOption = getUserChoice();
             processChoice(selectOption);
         }
-
     }
 
     private void displayMenu(){
@@ -53,6 +52,7 @@ public class TerminalInterface {
         switch(choice){
             case 1:
                 System.out.println("Add Transaction - Feature coming soon");
+
                 break;
             case 2:
                 System.out.println("View Transactions - Feature coming soon");
